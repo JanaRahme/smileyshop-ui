@@ -1,5 +1,39 @@
 .homepage {
-  background-color: #fbf7ed;
+  background-color: #6E8898;
   padding: 0px;
-  margin-top: 0px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left:50%;
+}
+
+input[type=submit] {
+    background-color: #E2C044;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 10%;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.text{
+  margin-left: 50%;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }

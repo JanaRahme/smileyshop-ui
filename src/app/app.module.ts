@@ -12,6 +12,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import {MaterialModule} from "./material/material.module";
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './navigation/footer/footer.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FooterComponent } from './navigation/footer/footer.component';
     SidenavListComponent,
     HeaderComponent,
     FooterComponent,
+    SlideshowComponent,
 
   ],
   imports: [
